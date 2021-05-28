@@ -18,14 +18,14 @@ HTML
     //your code
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/gh/4arlz/Revolver-Carousel/revolverCarousel.js"></script>
 ```
-
+https://cdn.jsdelivr.net/gh/4arlz/Revolver-Carousel/revolverCarousel.js
 JS
 
 After impоrt initialize a new instance of the class
 
 ```sh
-import Card from "./revolverCarousel.js"
 let card = new Card(document.getElementById('container'));
 ```
 > Note: the "Card" class constructor needs the object of your container.
