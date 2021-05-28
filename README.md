@@ -3,6 +3,8 @@
 
 Revolver Carousel is a simple slider, similar to a carousel.
 
+![Screenshot](https://github.com/4arlz/Revolver-Carousel/blob/master/img/image.jpg)
+
 ## Installation
 - In the html document you need some container for your cards.
 - The card mast have a class "card" and empty data-position=""
@@ -21,6 +23,7 @@ HTML
 <script src="https://cdn.jsdelivr.net/gh/4arlz/Revolver-Carousel/revolverCarousel.js"></script>
 ```
 https://cdn.jsdelivr.net/gh/4arlz/Revolver-Carousel/revolverCarousel.js
+
 JS
 
 After impоrt initialize a new instance of the class
