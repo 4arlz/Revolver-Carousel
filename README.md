@@ -21,6 +21,7 @@ HTML
 <script src="https://cdn.jsdelivr.net/gh/4arlz/Revolver-Carousel/revolverCarousel.js"></script>
 ```
 https://cdn.jsdelivr.net/gh/4arlz/Revolver-Carousel/revolverCarousel.js
+
 JS
 
 After impоrt initialize a new instance of the class
