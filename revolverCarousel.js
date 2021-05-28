@@ -1,4 +1,4 @@
-export default class Card {
+class Card {
     cardList = "";
     rotateEvent = "";
     constructor(object) {
