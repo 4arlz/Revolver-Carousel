@@ -11,6 +11,7 @@ class Card {
             card.addEventListener('rotate', e => {
                 this.rotateCard(card);
             });
+            card.addEventListener('click', () => { this.rollingToSelectCard(card) })
             card.style.top = ((object.offsetHeight / 2) - (card.offsetHeight / 2)) + "px";
             card.style.left = ((object.offsetWidth / 2) - (card.offsetWidth / 2)) + "px";
             card.dispatchEvent(this.rotateEvent);
@@ -99,4 +100,16 @@ class Card {
                 return false;
         }
     };
+    rollingToSelectCard(card) {
+        if (card.dataset.position == 0) return;
+        if (card.dataset.position <= 180) {
+            while (card.dataset.position != 0) {
+                this.rollCards('back');
+            }
+        } else {
+            while (card.dataset.position != 0) {
+                this.rollCards('front');
+            }
+        }
+    }
 }
