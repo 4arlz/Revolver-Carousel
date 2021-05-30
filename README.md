@@ -29,18 +29,27 @@ JS
 After impоrt initialize a new instance of the class
 
 ```sh
-let card = new Card(document.getElementById('container'));
+let carousel = new revolverCarousel(document.getElementById('container'));
 ```
 > Note: the "Card" class constructor needs the object of your container.
 
 
 ## Public methods
 
-Оnly one method is currently available
+.rollCards
 
 ```sh
-card.rollCards("front" | "back"); 
+carousel.rollCards("front" | "back"); 
 ```
-Rolling cards for next or prev.
+Rolling carousel to next or prev.
+
+
+.rollingToSelectCard
+
+```sh
+carousel.rollingToSelectCard(card)); 
+```
+Rolling carousel for selection card
+
 
 **Thanks for your attention!**
