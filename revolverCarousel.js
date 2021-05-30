@@ -49,7 +49,11 @@ class Card {
         let angle = card.dataset.position;
         let positionX = 0;
         let positionZ = 0;
-
+        if (card.dataset.position == 0) {
+            card.classList.add('active');
+        } else {
+            card.classList.remove('active');
+        }
         switch (true) {
             case (angle < 90):
                 positionX = angle;
